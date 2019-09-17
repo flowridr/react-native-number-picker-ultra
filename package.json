@@ -1,13 +1,16 @@
 {
   "name": "react-native-number-picker-ultra",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Native number picker for both Android & iOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native", "android", "ios", "picker"
+    "react-native",
+    "android",
+    "ios",
+    "picker"
   ],
   "repository": {
     "type": "git",
