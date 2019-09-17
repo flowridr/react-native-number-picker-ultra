@@ -1,25 +1,23 @@
 # react-native-number-picker-library
 
-[![npm version](https://img.shields.io/npm/v/react-native-number-picker-library.svg?style=flat-square)](https://www.npmjs.com/package/react-native-number-picker-library) <a><img src="https://david-dm.org/crabbynguyen/react-native-number-picker.svg?style=flat-square" alt="dependency status"></a>
-
 A Native number picker for both Android & iOS.
 
 iOS is using [ActionSheetPicker-3.0](http://skywinder.github.io/ActionSheetPicker-3.0/)
 
 ## Getting started
 
-`$ npm install react-native-number-picker-library --save`
+`$ npm install react-native-number-picker-ultra --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-number-picker-library`
+`$ react-native link react-native-number-picker-ultra`
 
 ### Manual installation
 
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-number-picker-library` and add `RNNumberPickerLibrary.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-number-picker-ultra` and add `RNNumberPickerLibrary.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNNumberPickerLibrary.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -32,18 +30,18 @@ iOS is using [ActionSheetPicker-3.0](http://skywinder.github.io/ActionSheetPicke
 
 2. Append the following lines to `android/settings.gradle`:
    ```
-   include ':react-native-number-picker-library'
-   project(':react-native-number-picker-library').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-number-picker-library/android')
+   include ':react-native-number-picker-ultra'
+   project(':react-native-number-picker-ultra').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-number-picker-ultra/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
-     compile project(':react-native-number-picker-library')
+     compile project(':react-native-number-picker-ultra')
    ```
 
 ## Usage
 
 ```javascript
-import RNNumberPickerLibrary from "react-native-number-picker-library";
+import RNNumberPickerLibrary from "react-native-number-picker-ultra";
 
 //Method createDialog(objectForConfig, callBackForDoneClick, callbackForCancelClick)
 RNNumberPickerLibrary.createDialog(
