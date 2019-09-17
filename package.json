@@ -1,6 +1,6 @@
 {
-  "name": "react-native-number-picker-library",
-  "version": "1.0.8",
+  "name": "react-native-number-picker-ultra",
+  "version": "1.1.0",
   "description": "A Native number picker for both Android & iOS",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:crabbynguyen/react-native-number-picker.git"
+    "url": "git@github.com/flowridr/react-native-number-picker-ultra.git"
   },
-  "author": "Glenn",
+  "author": "Lasse",
   "license": "MIT",
   "devDependencies": {
     "react-native": "^0.56.0"
