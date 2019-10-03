@@ -1,6 +1,6 @@
 {
   "name": "react-native-number-picker-ultra",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Native number picker for both Android & iOS",
   "main": "index.js",
   "scripts": {
